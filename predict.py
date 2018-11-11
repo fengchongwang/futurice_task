@@ -42,4 +42,4 @@ class HelloWorld(Resource):
 api.add_resource(HelloWorld, '/predict')
 
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5444,debug=True)
+    app.run(debug=True, use_reloader=True)

@@ -1,0 +1,17 @@
+dependencies:
+- python=3.6.1=2
+- setuptools=27.2.0=py36_0
+- wheel=0.29.0=py36_0
+- openssl=1.0.2l=0
+- pip=9.0.1=py36_1
+- pip:
+  - Flask==1.0.2     
+  - Flask-RESTful==0.3.6     
+  - jsonschema==2.6.0     
+  - numpy==1.14.1    
+  - pandas==0.19.2    
+  - pip==18.1      
+  - requests==2.20.0    
+  - scikit-learn==0.20.0    
+  - scipy==1.1.0     
+  - sklearn==0.0       
